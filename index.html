@@ -1,29 +1,4 @@
-<html lang="pt-BR" style="width: 100% !important; margin: 0 !important; padding: 0 !important;"><head><script>
-  // ALTERE O LINK PARA A PÁGINA QUE QUISER MOSTRAR QUANDO O USUÁRIO TENTAR SAIR
-  const link = 'https://vemaqui.online/up01/back/';
-
-  function setBackRedirect(url) {
-    let urlBackRedirect = url;
-    urlBackRedirect = urlBackRedirect =
-      urlBackRedirect.trim() +
-      (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
-      document.location.search.replace('?', '').toString();
-
-    history.pushState({}, '', location.href);
-    history.pushState({}, '', location.href);
-    history.pushState({}, '', location.href);
-
-    window.addEventListener('popstate', () => {
-      console.log('onpopstate', urlBackRedirect);
-      setTimeout(() => {
-        location.href = urlBackRedirect;
-      }, 1);
-    });
-  }
-
-  setBackRedirect(link);
-</script>
-
+<html lang="pt-BR" style="width: 100% !important; margin: 0 !important; padding: 0 !important;"><head>
 <script src="js/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
 <script>
   window.pixelId = "678f87e61c85ea557c00b19f";
@@ -3542,17 +3517,17 @@
 	}
 </style>
 
-<button id="btnPagamento1" onclick="window.location.href='https://pay.protegidacompra.com/checkout/5c5a257d-f488-40ff-a25f-51af3dc10528';" class="pulsante btn btn-primary btn-block btn-lg modal-trigger" style="border-width: 2px;" type="button">
+<button id="btnPagamento1" onclick="window.location.href='https://pay.kamylinha.com/bz5KZbKwyKnG7dL';" class="pulsante btn btn-primary btn-block btn-lg modal-trigger" style="border-width: 2px;" type="button">
 	<span>Assinar (1 semana)</span>
 	<span>R$ 19,90 / semana</span>
 </button>
 
-<button id="btnPagamento2" onclick="window.location.href='https://pay.protegidacompra.com/checkout/1c7695ed-0af1-4247-af9b-8f7a37f73954';" class="pulsante btn btn-primary btn-block btn-lg modal-trigger" style="border-width: 2px;" type="button">
+<button id="btnPagamento2" onclick="window.location.href='https://pay.kamylinha.com/NDr8gm8JMr4GBmj';" class="pulsante btn btn-primary btn-block btn-lg modal-trigger" style="border-width: 2px;" type="button">
 	<span>Assinar (1 mês)</span>
 	<span>R$ 29,90 / mês</span>
 </button>
 
-<button id="btnPagamento2" onclick="window.location.href='https://pay.protegidacompra.com/checkout/d05f4804-2cc7-4a68-a42b-efb65c414193';" class="pulsante btn btn-primary btn-block btn-lg modal-trigger" style="border-width: 2px;" type="button">
+<button id="btnPagamento2" onclick="window.location.href='https://pay.kamylinha.com/4KovG1ebKaqGyDE';" class="pulsante btn btn-primary btn-block btn-lg modal-trigger" style="border-width: 2px;" type="button">
 	<span>Assinar (3 meses)</span>
 	<span>R$ 59,90 / 3 meses</span>
 </button>
